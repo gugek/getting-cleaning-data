@@ -3,11 +3,20 @@
 Project to collect, work with, and clean up the Human Activity Recognition
 Using Smartphones Data Set.
 
-## Explanation
-
 ## Script
 
+The
+[`run_analysis.R`](https://github.com/gugek/getting-cleaning-data/blob/master/run_analysis.R)
+file processes the input data from the UCI Human Activity Recognition dataaset
+and generates an output file aggregating the averages of mean and standard
+deviation variables by subject and activity.
+
 ## Codebook
+
+The
+[codecook](https://github.com/gugek/getting-cleaning-data/blob/master/CodeBook.md)
+explains the variables, input data, and processing used to make the tidy
+(output) file that `run_analysis.R` generates.
 
 ## Assignment
 
