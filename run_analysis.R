@@ -114,4 +114,4 @@ by_subject_activity <- group_by(d.tidy_har_df, subject, activity_label)
 by_subject_activity_mean_table <- by_subject_activity %>%
     summarize_each(funs(mean),  matches('.*(mean|std).*'))
 
-write.csv(by_subject_activity_mean_table, "output.csv", row.names=FALSE)
+write.csv(by_subject_activity_mean_table, "output.txt", row.names=FALSE)

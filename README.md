@@ -11,6 +11,29 @@ file processes the input data from the UCI Human Activity Recognition dataaset
 and generates an output file aggregating the averages of mean and standard
 deviation variables by subject and activity.
 
+1. Open the `features.txt` and then makes a vector of column headers for the
+   `train` and `test` data sets.
+2. For both the `train` and `test` data sets.
+    + Read the `X` file containing the measurements into a data frame
+    + Read the activity file containing the activity label for each observation
+    + Read the subject file containing the identifier of the participant for
+      each observartion
+    + Add the activity labels column to the measurements data frame
+    + Add the subject identifiers column to the measurements data frame
+3. Create a new unified data frame using `rbind` to make a union of the `test`
+   and `train` data frames
+4. Use `dplyr` to make a `data.table` for the unified data.
+5. Remove from the unified data table all variables that are not `subject`,
+   `activity`, or contain a mean or standard deviation measurement.
+6. Create a merged data table incorporating the unified data table and the
+   values of the activity labels. This uses `dplyr` and `left_join`. An
+   enclosing `select` is used to resort the columns.
+7. Group the data table and then summarize by the averages of the mean and
+   standard deviation columns
+8. Rename the column names of the data table so that they are clear and
+   understandable
+9. Write the output in CSV format without the row names
+
 ## Codebook
 
 The
