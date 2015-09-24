@@ -33,16 +33,16 @@ activity.
 9. Write the output in CSV format without the row names
 
 ## Caveats
-    - The output was centered on the `subject` and `activity_label` since the
-      use of the output would appear to be aimed toward gauging how
-      individuals perform or behave differently. This makes the output long
-      (180 rows) rather than wide.
-    - Mean and standard deviation columns were identified based on the
-      presence of mean or std in the column name. This is a broad measurement
-      since this also includes variables in the original data set that are
-      aggregating the angle between vectors using an `angle()` function. It
-      seems more sensible to be inclusive since data can be taken away
-      later.
+- The output was centered on the `subject` and `activity_label` since the
+  use of the output would appear to be aimed toward gauging how
+  individuals perform or behave differently. This makes the output long
+  (180 rows) rather than wide.
+- Mean and standard deviation columns were identified based on the
+  presence of mean or std in the column name. This is a broad measurement
+  since this also includes variables in the original data set that are
+  aggregating the angle between vectors using an `angle()` function. It
+  seems more sensible to be inclusive since data can be taken away
+  later.
 
 ## Variables
 
