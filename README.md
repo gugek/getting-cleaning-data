@@ -14,7 +14,7 @@ deviation variables by subject and activity.
 ## Codebook
 
 The
-[codecook](https://github.com/gugek/getting-cleaning-data/blob/master/CodeBook.md)
+[codebook](https://github.com/gugek/getting-cleaning-data/blob/master/CodeBook.md)
 explains the variables, input data, and processing used to make the tidy
 (output) file that `run_analysis.R` generates.
 
