@@ -39,6 +39,9 @@ measurements of the subject's activity. The data set only reports back the
 mean and standard deviation means from each group of observations in the
 original data set.
 
+Units are reported from the original data set as a normalized value: "Features
+are normalized and bounded within [-1,1]".
+
 1. avg.tBodyAcc.mean.X : double
 2. avg.tBodyAcc.mean.Y: double
 3. avg.tBodyAcc.mean.Z: double
